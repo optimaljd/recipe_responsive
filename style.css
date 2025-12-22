@@ -1,0 +1,198 @@
+/* see also:
+.basic_text margin property */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+
+/* Prince's reset styling */
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  /* box-sizing: border-box; */
+}
+
+body {
+  background-color: #edd3bb;
+  padding: 50px 150px;
+
+  /* fixes default styling which gives boy colored border around the 
+  main container */
+  margin: 0;
+}
+
+.main_container {
+  background-color: white;
+  /* height: 2000px; */
+  padding: 22px;
+  border-radius: 1rem;
+}
+
+
+
+.image_wrapper {
+  display: flex;
+  justify-content: center;
+  
+
+  /* troubleshooting */
+  /* background-color: aqua; */
+  /* margin: 0; */
+}
+
+img {
+  border-radius: 8px;
+  /* width: 350px; */
+
+  width: 100%;
+
+  margin: 20px;
+  /* padding: 20px; */
+}
+
+.header_title {
+  /* text-align: center; */
+
+  font-family: "Young Serif", serif;
+  font-weight: 100;
+
+  /* uncomment to show the small difference between 900 and 200 */
+  /* font-weight: 900; */
+
+  margin-top: 5px;
+  margin-bottom: 0px;
+
+  /* troubleshooting */
+  /* background-color: aqua; */
+}
+
+.basic_text {
+  font-family: "Outfit", sans-serif;
+  font-weight: 250;
+
+  /* this plays a big role in the overall appearance of the document
+  try to rebuild it with zero-margin */
+  /* margin: 0; */
+}
+
+.prep_container {
+  background-color: #f7ebf2;
+  border-radius: 8px;
+
+  padding-bottom: 1px;
+}
+
+.prep_title {
+  padding-top: 20px;
+  padding-left: 20px;
+
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 450;
+
+  color: #940575;
+
+  /* background-color: aqua; */
+
+  margin: 0;
+}
+
+.prep_bullet_head {
+  font-family: "Outfit", sans-serif;
+  font-weight: 525;
+  /* padding-left: 10px; */
+}
+
+.prep_bullet_line_container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.prep_list_wrapper {
+  /* troubleshooting: decrease space between "Preparation Time Header
+    and the first bulletpoint */
+  /* margin-top: 0px; */
+  /* padding-top: 0px; */
+  /* background-color: red; */
+
+  padding-left: 10px;
+}
+
+.prep_list {
+    /* auto format adjustment */
+    margin: 0;
+}
+
+.section_headers {
+  font-family: "Young Serif", serif;
+  font-weight: 100;
+  color: #78483a;
+}
+
+.section_list {
+  /* troubleshooting */
+  /* gap: 10px; */
+}
+
+.section_list_item {
+  /* troubleshooting */
+  margin-bottom: 10px;
+}
+
+.instructions_list {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+.bullet_nums {
+  color: #78483a;
+  margin-right: 12px;
+}
+
+.table_line_container {
+    display: flex;
+    
+    
+    /* how can I get this to wrap and stay in a row?*/
+    /* flex-wrap: wrap; */
+    
+}
+
+.nutrition_row_contents {
+    width: 50%;
+}
+
+.zero_margin_right {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 700px) {
+.main_container {
+    padding: 0;
+    border-radius: 0;
+
+
+}
+
+img {
+    border-radius: 0;
+    margin-top: 0;
+}
+
+body {
+  padding: 0;
+
+  /* sketchy fix to border color */
+  /* background-color: white; */
+
+  /* background-color: white; */
+}
+
+.text_padding {
+  padding: 0 22px 0 22px;
+}
+
+}

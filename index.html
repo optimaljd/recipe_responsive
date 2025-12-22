@@ -1,0 +1,169 @@
+<!-- objectives
+ 1. make a website that is desktop and mobile responsive -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Page Remake</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="image_wrapper">
+      <img src="./images/image-omelette.jpeg" alt="Omelette Header Image" />
+    </div>
+
+    <div class="main_container">
+      <h1 class="header_title">Simple Omelette Recipe</h1>
+
+      <p class="basic_text">
+        An easy and quick dish, perfect for any meal. This classic omelette
+        combines beaten eggs cooked to perfection, optionally filled with your
+        choice of cheese, vegetables, or meats.
+      </p>
+
+      <div class="prep_container">
+        <h2 class="prep_title">Preparation time</h2>
+        <div class="prep_list_wrapper">
+          <ul class="prep_list">
+            <li>
+              <div class="prep_bullet_line_container">
+                <span class="prep_bullet_head">&nbsp; &nbsp; Total</span>
+                <p class="basic_text">: Approximately 10 minutes</p>
+              </div>
+            </li>
+            <li>
+              <div class="prep_bullet_line_container">
+                <pre></pre>
+                <span class="prep_bullet_head"> &nbsp; &nbsp; Preparation</span>
+                <p class="basic_text">: 5 minutes</p>
+              </div>
+            </li>
+            <li>
+              <div class="prep_bullet_line_container">
+                <pre></pre>
+                <span class="prep_bullet_head">&nbsp; &nbsp; Cooking</span>
+                <p class="basic_text">: 5 minutes</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- section one -->
+      <section class="section_1">
+        <h2 class="section_headers">Ingredients</h2>
+        <ul class="section_list">
+          <li class="basic_text section_list_item">2-3 large eggs</li>
+          <li class="basic_text section_list_item">Salt, to taste</li>
+          <li class="basic_text section_list_item">Pepper, to taste</li>
+          <li class="basic_text section_list_item">
+            1 tablespoon of butter or oil
+          </li>
+          <li class="basic_text section_list_item">
+            Optional fillings: cheese, diced vegetables, cooked meats, herbs
+          </li>
+        </ul>
+      </section>
+      <hr />
+      <!-- section two -->
+      <section class="section_2">
+        <h2 class="section_headers">Instructions</h2>
+        <ul class="section_list instructions_list">
+          <li class="basic_text section_list_item">
+            <span class="bullet_nums prep_bullet_head">1.</span>
+            <span class="prep_bullet_head"> </span>
+            <span class="prep_bullet_head">Beat the eggs</span>: In a bowl, beat
+            the eggs with a pinch of salt and pepper until they are well mixed.
+            You can add a tablespoon of water or milk for a fluffier texture.
+          </li>
+          <li class="basic_text section_list_item">
+            <span class="bullet_nums prep_bullet_head">2.</span>
+            <span class="prep_bullet_head">Heat the pan</span>: Place a
+            non-stick frying pan over medium heat and add butter or oil.
+          </li>
+          <li class="basic_text section_list_item">
+            <span class="bullet_nums prep_bullet_head">3.</span>
+            <span class="prep_bullet_head">Cook the omelette</span>: Once butter
+            is melted and bubbling, pour in the eggs. Tilt the pan to ensure the
+            eggs evenly coat the surface.
+          </li>
+          <li class="basic_text section_list_item">
+            <span class="bullet_nums prep_bullet_head">4.</span>
+            <span class="prep_bullet_head">Add fillings (optional)</span>: When
+            the eggs begin to set at the edges but are slightly runny in the
+            middle, sprinkle your chosen fillings over one half of the omelette.
+          </li>
+          <li class="basic_text section_list_item">
+            <span class="bullet_nums prep_bullet_head">5.</span>
+            <span class="prep_bullet_head">Fold and serve</span>: As the
+            omelette continues to cook, carefully lift one edge and fold it over
+            the fillings. Let it cook for another minute, then slide it onto a
+            plate.
+          </li>
+          <li class="basic_text section_list_item">
+            <span class="bullet_nums prep_bullet_head">6.</span>
+            <span class="prep_bullet_head">Enjoy</span>: Serve hot, with
+            additional salt and pepper if needed.
+          </li>
+        </ul>
+      </section>
+
+      <hr />
+      <!-- section three -->
+      <section class="section_3">
+        <h2 class="section_headers">Nutrition</h2>
+        <p class="basic_text">
+          The table below shows nutritional values per serving without
+          additional fillings.
+        </p>
+        <div class="table_line_container">
+          <span class="basic_text nutrition_row_contents">Calories</span>
+          <span
+            class="bullet_nums prep_bullet_head nutrition_row_contents zero_margin_right"
+            >227kcal</span
+          >
+        </div>
+        <hr />
+        <div class="table_line_container">
+          <span class="basic_text nutrition_row_contents">Carbs</span>
+          <span
+            class="bullet_nums prep_bullet_head nutrition_row_contents zero_margin_right"
+            >0g</span
+          >
+        </div>
+
+        <hr />
+        <div class="table_line_container">
+          <span class="basic_text nutrition_row_contents">Protein</span>
+          <span
+            class="bullet_nums prep_bullet_head nutrition_row_contents zero_margin_right"
+            >20g</span
+          >
+        </div>
+        <hr />
+
+        <div class="table_line_container">
+          <span class="basic_text nutrition_row_contents">Fat</span>
+          <span
+            class="bullet_nums prep_bullet_head nutrition_row_contents zero_margin_right"
+            >22g</span
+          >
+        </div>
+
+        <!-- <ul class="section_list">
+          <li class="basic_text section_list_item">2-3 large eggs</li>
+          <li class="basic_text section_list_item">Salt, to taste</li>
+          <li class="basic_text section_list_item">Pepper, to taste</li>
+          <li class="basic_text section_list_item">
+            1 tablespoon of butter or oil
+          </li>
+          <li class="basic_text section_list_item">
+            Optional fillings: cheese, diced vegetables, cooked meats, herbs
+          </li>
+        </ul> -->
+      </section>
+    </div>
+  </body>
+</html>
